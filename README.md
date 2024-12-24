@@ -37,17 +37,15 @@ pip install numpy
 pip install streamlit
 pip install streamlit_extras
 
-Usage
+#Usage
 
-To use this project, follow these steps:
 
-Clone the repository: git clone https://github.com/gopiashokan/Apple-Inspired-AI-Calculator.git
 Install the required packages: pip install -r requirements.txt
 Add your Google API key to the .env file.
 Run the Streamlit app: streamlit run app.py
 Access the app in your browser at http://localhost:8501
 
-Features
+#Features
 
 Live Webcam Feed:
 Webcam Initialization: Utilizes OpenCV to initialize and access the webcam, enabling continuous capture of live video feed. This setup ensures real-time interaction with the user's input.
@@ -65,24 +63,24 @@ Gesture-Based Controls:
 🧽 Erase Content: Erase any mistakenly drawn content by activating erase mode by lifting the Thumb and Middle fingers.
 🗑️ Reset Canvas: Clear the entire drawing canvas by lifting the Thumb and Pinky fingers.
 📤 Send to AI Model: Submit the drawing for analysis by lifting the Index and Middle fingers.
-Drawing and Blending:
+#Drawing and Blending:
 Canvas Management: Establishes a dedicated drawing canvas that overlays the live video feed. This canvas allows users to draw mathematical problems directly onto the screen, providing a seamless and interactive experience.
 
 Image Blending: Integrates the drawn content with the live video feed by blending both images. This process ensures that the user’s drawings are accurately displayed on top of the live feed, maintaining a clear and cohesive visual presentation.
 
-Generative AI Integration:
+#Generative AI Integration:
 API Setup and Model Initialization: Configures the Google Generative AI library by integrating it with a valid API key. Initializes the Gemini 1.5 Flash model, setting it up to process and analyze input data from the drawing.
 
 Solution Generation: Sends the processed image along with the input prompt to the AI model. It generates detailed solutions for the mathematical problems depicted, providing accurate and comprehensive results based on the visual input.
 
-Streamlit Application:
+#Streamlit Application:
 Interactive Interface: Developed using Streamlit, this application offers a user-friendly and interactive interface. It seamlessly integrates all the project’s features, allowing users to easily interact with the AI calculator and perform tasks like drawing, gesture control, and viewing solutions.
 
 Real-Time Interaction: The Streamlit application provides real-time feedback and updates, ensuring that users can see their drawings and results immediately. This dynamic interface enhances the overall user experience, making it intuitive and efficient to use the AI-powered calculator.
 
-🎬 Project Demo Video: https://youtu.be/HXFBbLOpn6I
 
-References:
+
+#References:
 Streamlit: https://docs.streamlit.io/
 OpenCV: https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html
 Pillow: https://pillow.readthedocs.io/en/stable/
